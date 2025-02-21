@@ -4,7 +4,7 @@ export default class CL_vPersonas {
     constructor() {
         this.controlador = null
         this.salida = document.getElementById('mainForm_salida');
-        this.vPersonas = new CL_vPersonas();
+        this.vPersonas = new CL_vPersona();
         this.vPersonas.btProcesar.onclick= () => this.controlador.procesarPersonas();
 
         
